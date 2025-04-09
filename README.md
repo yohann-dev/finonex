@@ -28,6 +28,7 @@ You can process any event file by passing the filename:
 ```bash
 node data_processor.js events.jsonl
 node data_processor.js another_events.jsonl
+```
 
 ## Query revenue for a user
 ```bash
