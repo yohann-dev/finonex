@@ -6,7 +6,7 @@ const app = express();
 const port = 8000;
 const { Pool } = require('pg');
 const SECRET_HEADER = 'secret';
-const EVENTS_FILE = path.join(__dirname, 'events.jsonl');
+const EVENTS_FILE = path.join(__dirname, 'events.log');
 
 app.use(express.json());
 
